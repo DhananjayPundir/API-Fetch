@@ -1,0 +1,39 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:45px;
+}
+
+header{
+    width:100%;
+    max-width: 800px;
+    text-align: center;
+}
+header h1{
+    color:#15af6c;
+    padding-right:25px;
+}
+header form .search-container{
+    margin-top:24px;
+    margin-bottom:25px;
+}
+header form .search-container input{
+    width:40%;
+    border-radius:10px;
+    height:30px;
+    border:none;
+    background-color: rgb(230, 228, 226);
+}
+.material-icons{
+    position:relative;
+    top:8px;
+    right:30px;
+}
+.ma
